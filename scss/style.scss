@@ -1,0 +1,45 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+    color: #292929;
+	font-family: 'Roboto', sans-serif;
+	background-color: #ffffff;
+}
+
+h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2em;
+    font-weight: 800;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+p {
+    line-height: 1.5em;
+    margin-bottom: 20px;
+}
+
+a {
+	color: black;
+	font-weight: 600;
+	text-decoration: none;
+	font-size: 1.2rem;
+	line-height: 2rem;
+}
+
+@import 'component/header';
+@import 'component/menu';
+@import 'component/parallax';
+@import 'component/buttons';
+@import 'component/catalogo';
+@import 'component/sale';
+@import 'component/interior';
+@import 'component/footer';
+@import 'component/querys';
+@import 'base/colores';
+
+
+

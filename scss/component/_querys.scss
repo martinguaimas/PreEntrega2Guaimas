@@ -1,0 +1,40 @@
+
+/* MEDIA QUERIS */
+
+@media screen and (max-width:768px) {
+    .parallax  {
+        height: auto;
+    }
+    .parallax, #sale {
+        text-align: center;
+        padding: 20px 0;
+
+        h2 {
+            font-size: 2rem;
+            margin: 40px auto;
+            text-align: center;
+        }
+    }
+    article {
+        width: 50%;
+    }
+   
+    .catalogo {
+        width: 100%;
+    }
+    article {
+        width: 100%;
+    }
+    .boton-md a {
+        padding: 10px 20px;
+        width: 100%;
+    }
+}
+    @media screen and (max-width:360px) {
+        .catalogo-contenedor {
+            flex-direction: column;
+        }
+        article img {
+            width: 100%;
+        }
+}

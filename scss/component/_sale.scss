@@ -1,0 +1,18 @@
+#sale {
+	background-image: url("../assets/img/sale.jpg");
+    text-align: left;
+    padding-left: 100px;
+
+    h2 {
+        text-align: left;
+    }
+    .boton a {
+        background-color: transparent;
+        border: 2px solid #ffffff;
+
+        &:hover {
+            background-color: #ffffff;
+            border-color: #920404;
+        } 
+    }   
+}

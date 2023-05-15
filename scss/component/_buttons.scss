@@ -1,0 +1,29 @@
+.boton a {
+    background-color: #920404;
+    border: 2px solid #920404;
+    border-radius: 4px;
+    color: #ffffff;
+    padding: 10px 18px;
+    transition: ease-in-out all 0.6s;
+
+    &:hover {
+        background-color: #ffffff;
+        color: #920404;
+    }
+}
+
+.boton-md {
+    text-align: center;
+
+    a {
+        background-color: #292929;
+        border: 2px solid #292929;
+        border-radius: 4px;
+    
+        &:hover {
+            color: #292929;
+        }
+    }
+}
+
+
